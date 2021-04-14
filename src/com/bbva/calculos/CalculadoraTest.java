@@ -39,6 +39,6 @@ class CalculadoraTest {
         BigDecimal resultado= new BigDecimal("2.94");
 
         resultado.setScale(2, RoundingMode.HALF_EVEN);
-        assertEquals(calculadora.suma(new BigDecimal(1.505), new BigDecimal(1.440)),resultado);
+        assertEquals(calculadora.suma(new BigDecimal("1.505"), new BigDecimal("1.440")),resultado);
     }
 }
